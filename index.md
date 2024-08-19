@@ -2,6 +2,12 @@
 layout: default
 ---
 
+Hi!
+<br>
+I know this website looks bad, but I promise it will get better with time!
+Till then, feel free to check out my [CTF writeups](./ctf-writeups)!
+
+<!-- 
 Text can be **bold**, _italic_, ~~strikethrough~~ or `keyword`.
 
 [Link to another page](./another-page.html).
@@ -120,4 +126,4 @@ Long, single-line code blocks should not wrap. They should horizontally scroll i
 
 ```
 The final element.
-```
+``` -->

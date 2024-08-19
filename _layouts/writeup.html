@@ -12,6 +12,24 @@
 </head>
 
 <body>
-    <h1>THIS IS A WRITEUP</h1>
-    {{content}}
+    <header>
+        <div class="container">
+            <h1>{{ page.title }}</h1>
+            <h2>{{ site.description | default: site.github.project_tagline }}</h2>
+        </div>
+    </header>
+
+    <div class="container">
+        <section id="main_content">
+            <p>
+                Check out the official CTF
+                <a id="link" href="{{ page.ctf_url }}"> page</a>
+                or the CTFTIME
+                <a id="link" href="{{ page.ctf_time_url}}"> post</a> :)
+            </p>
+            {{ content }}
+        </section>
+    </div>
 </body>
+
+</html>
